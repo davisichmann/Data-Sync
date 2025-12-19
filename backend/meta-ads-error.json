@@ -1,0 +1,13 @@
+{
+  "name": "FacebookRequestError",
+  "message": "(#200) Ad account owner has NOT grant ads_management or ads_read permission, refer to https://developers.facebook.com/docs/marketing-api/get-started/authorization/#permissions-and-features for details.",
+  "stack": "Error\n    at FacebookRequestError.FacebookError [as constructor] (C:\\Users\\davis\\Desktop\\Agencias\\data-sync-saas\\backend\\node_modules\\facebook-nodejs-business-sdk\\dist\\exceptions.js:18:16)\n    at new FacebookRequestError (C:\\Users\\davis\\Desktop\\Agencias\\data-sync-saas\\backend\\node_modules\\facebook-nodejs-business-sdk\\dist\\cjs.js:371:129)\n    at C:\\Users\\davis\\Desktop\\Agencias\\data-sync-saas\\backend\\node_modules\\facebook-nodejs-business-sdk\\dist\\api.js:153:15\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "status": 403,
+  "response": {
+    "message": "(#200) Ad account owner has NOT grant ads_management or ads_read permission, refer to https://developers.facebook.com/docs/marketing-api/get-started/authorization/#permissions-and-features for details."
+  },
+  "headers": {},
+  "method": "GET",
+  "url": "https://graph.facebook.com/v24.0/act_527858779492698/insights?time_range=%7B%22since%22%3A%222025-12-10%22%2C%22until%22%3A%222025-12-10%22%7D&level=campaign&limit=100&fields=campaign_name%2Ccampaign_id%2Cspend%2Cclicks%2Cimpressions%2Cactions&access_token=2923527404502609%7CYt0CQnjUurum0fqnknYa3fvY7Do",
+  "data": {}
+}

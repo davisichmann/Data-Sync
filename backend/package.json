@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --transpile-only src/index.ts",
+    "test:db": "ts-node --transpile-only src/test-db.ts",
+    "test:meta": "ts-node --transpile-only src/test-meta-ads.ts",
+    "test:ga4": "ts-node --transpile-only src/test-ga4.ts",
+    "test:sync": "ts-node --transpile-only src/test-sync-flow.ts",
+    "test:cron": "ts-node --transpile-only src/test-cron.ts",
+    "test:sheets": "ts-node --transpile-only src/test-sheets-export.ts",
+    "setup": "ts-node --transpile-only src/setup-test-client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.1",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^5.2.1",
+    "@supabase/supabase-js": "^2.86.2",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "facebook-nodejs-business-sdk": "^24.0.1",
+    "google-ads-api": "^21.0.1",
+    "googleapis": "^168.0.0",
+    "node-cron": "^4.2.1"
+  }
+}
