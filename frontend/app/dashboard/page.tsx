@@ -946,7 +946,7 @@ export default function DashboardPage() {
                                             <li>Vá em <strong>"Credenciais"</strong> e crie um "ID do cliente OAuth".</li>
                                             <li>Configure a tela de consentimento (pode ser "Externo" em modo de teste).</li>
                                             <li>Use o "OAuth 2.0 Playground" para gerar seu <strong>Refresh Token</strong>.</li>
-                                            <li>Você também precisará do seu <strong>Developer Token</strong> (no painel do Google Ads > Ferramentas > API).</li>
+                                            <li>Você também precisará do seu <strong>Developer Token</strong> (no painel do Google Ads &gt; Ferramentas &gt; API).</li>
                                         </ol>
                                     </div>
                                 )}
